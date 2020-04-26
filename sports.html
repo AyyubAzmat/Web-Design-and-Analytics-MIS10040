@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Favourite Sports</title>
+<style>
+#myHeader {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: center;
+}
+ul, .green {
+  list-style-type: none;
+  background-color: #00FF00;
+}
+
+.red {
+  list-style-type: none;
+  background-color: #FF0000;
+}
+
+#top-3-sports {
+  background-color: #FFFF00;
+}
+
+li .flatten {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+</style>
+  </head>
+  <body>
+
+    <h1 id="myHeader">Sports</h1>
+
+    <a href="bands.html">Bands</a>
+    <p class="red">Here I will outline my favourite sports.</p>
+
+    <a href="#football">football</a>
+    <ol id="top-3-sports">
+      <li>Cycling</li>
+      <li>Football</li>
+      <li>Kayaking</li>
+    </ol>
+
+    <ol class="red" start="4">
+      <li>Hurling</li>
+      <li>Volleyball</li>
+    </ol>
+
+    <ul class="green">
+      <li>Cycling
+        <ol>
+          <li>Road Race</li>
+          <li>Time Trial</li>
+        </ol>
+      </li>
+      <li>Football
+        <ol type="i">
+          <li>11 a Side</li>
+          <li>6 a Side</li>
+        </ol>
+      </li>
+      <li>Kayaking
+        <ol type="a">
+          <li>Slalom</li>
+          <li>Canoe Polo</li>
+        </ol>
+      </li>
+    </ul>
+
+    <dl>
+      <dt>Cycling</dt>
+      <dd>- it is fun to cycle and speed delivers a big adrenaline rush.</dd>
+      <dt><a name="football">Football</a></dt>
+      <dd>- teamwork is fun</dd>
+    </dl>
+
+  </body>
+</html>

@@ -1,0 +1,478 @@
+body{
+	background-color: rgba(255, 255, 80, 1);
+	width: 1255px;	
+	max-width: auto;
+	font-family: verdana;
+	position: relative;
+  	min-height: 100%;
+  	min-height: 100vh;
+}
+
+  
+h1{
+	color: white;
+	text-align: left;
+	font-family: verdana;
+	font-style: italic;
+	display: inline-block;
+	font-size: 85px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+h2{
+font-size: 20px;
+}
+
+h3{	
+text-align: center;
+}
+
+
+
+div.header{	
+	background-color: rgb(242, 0, 0);
+	width: 1263px;	
+	margin-left: -8px;
+	margin-right: auto;
+	margin-top: -8px;
+	margin-bottom: 8px; 
+	display: float;
+}
+
+#logo{
+	display: inline-block;
+}
+
+
+ul.nav li a.active{
+	background-color: rgb(255,190,0);
+  	display: block;
+  	padding: 19px 29px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 25px;
+	color: green;	
+}
+
+ul.nav li a.giftbtn{
+	background-color: rgb(255,190,0);
+  	display: block;
+  	padding: 19px 29px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 25px;
+	color: green;
+}
+.footer h3{
+	color: orange;
+  	font-weight: 100;
+  	margin-bottom: 0;
+}
+
+div.footer{
+	position: absolute;
+	margin-top: 0;
+	margin-left: -8px;
+	margin-right: auto;
+   	width: 1263px;
+   	background-color: grey;
+   	text-align: left;
+	max-width: 100%;
+	max-height: 200px;
+}
+
+ul.foot, ul.foot a{
+	list-style: none;
+	font-size: 15px;
+	color: white;
+	display: block;
+  	float: left;
+	text-decoration: none;
+}
+
+.foot {
+margin: 40px;
+
+}
+
+
+ul.nav{
+	list-style-type: none;
+	padding: 0px;
+	overflow: hidden;
+	width: 1263px:
+	max-width: 100%;
+	margin-top: -8px;
+	margin-left: -8px;
+	margin-right: auto;
+}
+
+ul.nav li{
+	float: left;
+}
+
+ul.nav li a.musicbtn{
+  	display: block;
+  	padding: 19px 29px;
+  	background-color: rgb(255,190,0);
+	text-decoration: none;
+	text-align: center;
+	font-size: 25px;
+	color: green;	
+}
+
+ul.nav li a.fishingbtn{
+  	display: block;
+  	padding: 19px 29px;
+  	background-color: rgb(255,190,0);
+	text-decoration: none;
+	text-align: center;
+	font-size: 25px;
+	color: green;	
+}
+
+ul.nav li a.contactbtn{
+  	display: block;
+  	padding: 19px 34.57px;
+  	background-color: rgb(255,190,0);
+	text-decoration: none;
+	text-align: center;
+	font-size: 25px;
+	color: green;
+}
+
+ul.nav li a.aboutbtn{
+  	display: block;
+  	padding: 19px 29px;
+  	background-color: rgb(255,190,0);
+	text-decoration: none;
+	text-align: center;
+	font-size: 25px;
+	color: green;	
+}
+
+
+ul.nav li a:hover, .musicdrop:hover , .musicbtn{
+	background-color: rgb(255,210,0);
+}
+
+ul.nav li a:hover, .contactdrop:hover, .contactbtn{
+	background-color: rgb(255,210,0);
+}
+
+ul.nav li a:hover, .aboutdrop:hover, .aboutbtn{
+	background-color: rgb(255,210,0);
+}
+
+ul.nav li a:hover, .fishingdrop:hover, .fishingbtn{
+	background-color: rgb(255,210,0);
+}
+
+ul.nav li.musicdrop{
+	display: inline-block;	
+}
+
+ul.nav li.contactdrop{
+	display: inline-block;	
+}
+
+ul.nav li.aboutdrop{
+	display: inline-block;	
+}
+
+ul.nav li.fishingdrop{
+	display: inline-block;	
+}
+
+.music-content{
+	display: none;
+	position: absolute;
+	background-color: rgb(255,210,0);
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.contact-content{
+	display: none;
+	position: absolute;
+	background-color: rgb(255,210,0);
+	min-width: 160px;
+	max-width: 190px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.about-content{
+	display: none;
+	position: absolute;
+	background-color: rgb(255,210,0);
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.fishing-content{
+	display: none;
+	position: absolute;
+	background-color: rgb(255,210,0);
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.music-content a{
+  	color: green;
+  	padding: 12px 16px;
+  	text-decoration: none;
+  	display: block;
+  	text-align: left;
+}
+
+.contact-content a{
+  	color: green;
+  	padding: 12px 16px;
+  	text-decoration: none;
+  	display: block;
+  	text-align: left;
+}
+
+.about-content a{
+  	color: green;
+  	padding: 12px 16px;
+  	text-decoration: none;
+  	display: block;
+  	text-align: left;
+}
+
+.fishing-content a{
+  	color: green;
+  	padding: 12px 16px;
+  	text-decoration: none;
+  	display: block;
+  	text-align: left;
+}
+
+.music-content a:hover{
+	background-color: white;
+}
+
+.contact-content a:hover{
+	background-color: #f1f1f1;
+}
+
+.about-content a:hover{
+	background-color: #f1f1f1;
+}
+
+.fishing-content a:hover{
+	background-color: #f1f1f1;
+}
+
+.musicdrop:hover .music-content{
+  	display: block;
+}
+
+.contactdrop:hover .contact-content{
+  	display: block;
+}
+
+.aboutdrop:hover .about-content{
+  	display: block;
+}
+
+.fishingdrop:hover .fishing-content{
+  	display: block;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.card img{
+	width: 160px;
+	height: 160px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+	margin-left: -8px;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+.title {
+  color: grey;
+}
+
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+
+.container {
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+/* Cl
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+
+@media (max-width: 500px) {
+  .container {
+    text-align: center;
+  }
+
+  .container img {
+    margin: auto;
+    float: none;
+    display: block;
+  }
+}
+div form {
+  border: 3px solid #f1f1f1;
+  font-family: Arial;
+}
+
+div .container {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+div.container input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+div.container input[type=checkbox] {
+  margin-top: 16px;
+}
+
+div.container input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+div.container input[type=submit]:hover {
+  opacity: 0.8;
+}
+ul.nav li a.active{
+	background-color: rgb(255,190,0);
+  	display: block;
+  	padding: 19px 29px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 25px;
+	color: green;	
+}
+
+ul.nav li a.giftbtn{
+	background-color: rgb(255,190,0);
+  	display: block;
+  	padding: 19px 29px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 25px;
+	color: green;
+}
+.footer h3{
+	color: orange;
+  	font-weight: 100;
+  	margin-bottom: 0;
+}
+
+div.footer{
+	position: absolute;
+	margin-top: 0;
+	margin-left: -8px;
+	margin-right: auto;
+   	width: 1263px;
+   	background-color: grey;
+   	text-align: left;
+	max-width: 100%;
+	max-height: 200px;
+}
+
+ul.foot, ul.foot a{
+	list-style: none;
+	font-size: 15px;
+	color: white;
+	display: block;
+  	float: left;
+	text-decoration: none;
+}
+
+.foot {
+margin: 40px;
+
+}
+
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+
+  .header input[type=text] {
+    border: 1px solid #ccc;  
+  }
+

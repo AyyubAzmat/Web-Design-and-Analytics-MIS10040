@@ -1,0 +1,27 @@
+body {
+
+  background-color: #555;
+}
+
+h1 {
+  color: lightblue;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+  color: orange;
+border-style: dashed;
+}
+
+h3, #para1 {
+    color:green;
+   background-color: yellow;
+}
+
+
+
+.paras {
+  color: blue;
+}
